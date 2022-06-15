@@ -1,7 +1,8 @@
 # BMI Calculator
 
 
-![1](https://user-images.githubusercontent.com/64233832/173851346-e7313bdb-e830-45af-ad31-29fcfb13bca9.PNG)
-![2](https://user-images.githubusercontent.com/64233832/173851353-3db62afa-b3a7-489b-b7d5-9441b19ee317.PNG)
-![3](https://user-images.githubusercontent.com/64233832/173851356-15cceca1-191b-4f43-836d-14d101f4aff7.PNG)
-![4](https://user-images.githubusercontent.com/64233832/173851360-9f423324-4e45-44af-83ec-c5abb080ff88.PNG)
+
+![1](https://user-images.githubusercontent.com/64233832/173852140-16ed7561-b083-492c-ac34-c8f08ab49760.PNG)
+![2](https://user-images.githubusercontent.com/64233832/173852147-e02991e9-cda4-4ea4-9713-de13a03cfbbd.PNG)
+![3](https://user-images.githubusercontent.com/64233832/173852150-04567387-fef9-4a06-b449-80b2340ff68e.PNG)
+![4](https://user-images.githubusercontent.com/64233832/173852155-a50b7cc8-99db-4a17-8442-c023af9cd9ea.PNG)
