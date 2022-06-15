@@ -18,7 +18,7 @@ class BMIResultScreen extends StatelessWidget {
         appBar: AppBar(
           centerTitle: true,
           title: Text(
-            "BMI Resualt",
+            "BMI Result",
             style: TextStyle(
                 fontSize: 30,
                 fontWeight: FontWeight.bold,
