@@ -2,6 +2,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 
+import '../../../constants.dart';
 import '../bmi_result_screen/bmi_result_screen.dart';
 
 class BmiCalculator extends StatefulWidget {
@@ -22,10 +23,16 @@ class _BmiCalculator extends State<BmiCalculator> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("BMI Calculator",),
-        centerTitle: true,
-        backgroundColor: Colors.black,
 
+        centerTitle: true,
+        title: Text(
+          "BMI Calculator",
+          style: TextStyle(
+              fontSize: 30, fontWeight: FontWeight.bold, fontFamily: kfont,color: kTextColor),
+          textAlign: TextAlign.center,
+        ),
+        foregroundColor: kTextColor,
+        backgroundColor: ksecandColor,
       ),
       body: Column(
         children: [
@@ -127,15 +134,18 @@ class _BmiCalculator extends State<BmiCalculator> {
                         const Text("CM",style: TextStyle(fontSize: 20,fontWeight: FontWeight.w900),),
                       ],
                     ),
-                    Slider(value:height,
-                        max: 220,
-                        min: 80, onChanged:(value){
-                      setState(() {
-                        height=value;
-
-                      });
-
-                      }, )
+                    Slider(
+                        inactiveColor: kBackgroundColor,
+                        activeColor: ksecandColor,
+                        thumbColor: ksecandColor,
+                        value: height,
+                        max: 220.0,
+                        min: 120,
+                        onChanged: (value) {
+                          setState(() {
+                            height = value;
+                          });
+                        }),
                   ],
                 ),
 
